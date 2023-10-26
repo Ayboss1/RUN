@@ -15,5 +15,5 @@ width:25%;}
 .left,.main,.right {width:90%;}
 }
 @media screen and (max-width:1100px){
-	.head {font-size:100%}
+	.head {width:100%}
 }
