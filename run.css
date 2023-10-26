@@ -1,0 +1,11 @@
+.left {
+float:left;
+width:;}
+
+.main {
+	
+    width:40%;
+}
+
+@media screen and (max-width:1100px)
+.left,.main, {width:80%;}
