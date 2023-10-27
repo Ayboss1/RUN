@@ -15,72 +15,75 @@ input[type=text] {border-radius:20px;}
 <marquee style="background-color:white;height:20px;text-shadow:1px 1px red;padding:1px;font-size:10px;color:red;"><pre><b>......... REDEEMER'S  UNIVERSITY,.........</b>  Ede,  OsunState.  MOTTO:  Running    with    the    vision ..</pre></marquee>
 
   </head>
-<body >
+<body  style="background-image:url('bi.jpg'); background-attatchment:fixed;background-size:cover;background-repeat:no-repeat;">
 
 <center><p  class="head" style="background-color:#00008B;padding:px;border-radius:20px;border:1px solid white;"><img src="Runlogo1.jpg" style="border-radius:40px;width:9vw;height:8.2vw;margin-top:0px; padding-buttom:20px;"><span style="font-size:6vw;color:white;text-shadow:2px 2px blue"><b>  REDEEMER'S </b><br>UNIVERSITY</span></p></center><br>
 <div class="left"></div><div  class="main">
-  <center><fieldset style="widt:450px;heght:750px;background-color:white;border-radius:25px;border-color:blue;">
+  <center><fieldset style="background-color:white;border-radius:25px;border-color:blue;">
 
 <p style="color:black;font-size:20px;;text-shadow:1px 1px blue;margin-top:50px;text-align:center; ">STUDENT'S COMPLAINT/<br>EMERGENCY FORM</p>
 <br><br>
 <fieldset style="text-align:left;border-color:black;background-color:rgb(245,245,245);  ">
 <legend style="color:red;background-color:white;">DETAILS</legend>
 
-<label  for="fullname">FULLNAME:</label>
-<input type="text" id="fullname" name="fullname" style="width:150px;"class="tt"><br><br>
-<label for="faculty">FACULTY:</label>
-<select value="select your faculty" id="faculty">
-<option>Faculty of Law</option>
-<option>Faculty of Basic Medical Sciences</option>`
-<option>Faculty of Humanities</option>
-<option>Faculty of Engineering</option>
-<option>Faculty of Natural Sciences</option>   
-<option>faculty of Social Science</option>
-<option>Business Administration</option>
+<label  for="fullname" >Full Name:</label>
+<input type="text" id="fullname" name="fullname" style="width:30vw" class="tt" required><br><br>
+<label for="faculty">Faculty:</label>
+<select  id="faculty" name="faculty" required>
+<option value="Law">Faculty of Law</option>
+<option Value="Medical Science">Faculty of Basic Medical Sciences</option>`
+<option value="Humanities">Faculty of Humanities</option>
+<option Value="Engineering">Faculty of Engineering</option>
+<option value="Natural Sciences">Faculty of Natural Sciences</option>   
+<option value="Social Science">faculty of Social Science</option>
+<option Value="Bussiness Administration">Business Administration</option>
 </select>
-<label for="level">LEVEL:</label>
-<select>
-<option>100L</option>
-<option>200L</option>
-<option>300L</option>
-<option>400L</option>
-<option>500L</option>
+<label for="level" >LEVEL:</label>
+<select id="level" name="level"  required>
+<option value="100">100L</option>
+<option value="200">200L</option>
+<option value="300">300L</option>
+<option value="400"> 400L</option>
+<option value="500">500L</option>
 
 
 </select><br>
 <p style="text-align:center;"><u>GENDER</u></p>
 <p style="text-align:center;">
-<input type="radio" name="gender" id="Male">
+<input type="radio" name="gender" value="Male" id="Male">
 <label for="Male">MALE</label>
-<input type="radio" name="gender" id="female">
+<input type="radio" name="gender" Value="female" id="female">
 <label for="female"> FEMALE</label>
 </p> 
 <br><br><br>
 
 <label for="hostelname">Hostel Name:</label>
-<input type="text" id="hostelname" ><br><br>
-<label>Block Number:</label>
-<input type="number" size="10" style="width:30px">
-<label for=""> Room:</label>
-<input type="number" style="width:30px">
-
+<input type="text" id="hostelname" name="hostelname" ><br><br>
+<label for="bn" required>Block Number:</label>
+<input type="number" size="10" style="width:30px" id="bn" name="Block Number">
+<label for="rn" required> Room: </label>
+<input type="number" style="width:30px" id="rn" name="room number" required><br><br>
+<label for="mn">Jamb No/Matric No:</label>
+<input type="text" id="mn" name="Jamb No" required>
 
 </fieldset><br><br>
 <fieldset style="text-align:left;border-color:black;background-color:rgb(245,245,245); "> 
 <legend style="color:red;background-color:white;">
 COMPLAINT</legend>
-<textarea rows=8 cols=30></textarea>
 
+<textarea rows=8 cols=80vw name="complaint" required></textarea>
+<p>Emergency Contact</p>
 </fieldset><br>
-<input type="submit" value="Proceed" style="float:right;border-radius:20px;width:100px;text-shadow:1px 1px white">
-Emergency Contact
+
+<input type="submit" value="Submit" style="float:right;border-radius:20px;width:100px;text-shadow:1px 1px white"><br><br>
+
 </fieldset>
     
+</center>
 
-
-
-</form></div></body></center><div class="right"></div><<br>
-<footer style="text-align:center;color:white;text-shadow:1px 1px white;"> Copyright &copy 2023 Redeemer's University </footer>
+</form></div></body><div class="right"></div><<br><br>
+<footer style="text-align:center;color:white;text-shadow:1px 1px white;buttom:0px" > Copyright &copy 2023 Redeemer's University </footer>
+  
   
 
 
