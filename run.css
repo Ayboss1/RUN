@@ -19,7 +19,7 @@ width:25%;}
   padding: 20px;}
 
 .wr{
-	position: absolute;
+	position:fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
